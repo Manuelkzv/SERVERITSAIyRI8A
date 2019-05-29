@@ -4,8 +4,8 @@ const app = express();
 app.use(express.static("Public"));
 
 
-app.listen(8080, function(){
-	console.log("Servdor listo");
+app.listen(80, function(){
+	console.log("Servdor listo en puert 80");
 });
 
 app.get('/', function(req, res){
